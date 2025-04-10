@@ -8,13 +8,13 @@ import PackageDescription
 import AppleProductTypes
 
 let package = Package(
-    name: "GitHubPractice2",
+    name: ".swiftpm",
     platforms: [
         .iOS("16.0")
     ],
     products: [
         .iOSApplication(
-            name: "GitHubPractice2",
+            name: ".swiftpm",
             targets: ["AppModule"],
             bundleIdentifier: "org.jhhs.628405.GitHubPractice2",
             displayVersion: "1.0",

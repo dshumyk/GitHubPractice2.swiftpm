@@ -5,8 +5,10 @@ struct ContentView: View {
     @State var number2 = 0 
     
     var body: some View {
-        VStack {
+       
             TextField("Enter a number", value: $number2, format: .number)
+        TextField("Enter a number",value: $number1,format: .number)
+        
         }
     }
-}
+
